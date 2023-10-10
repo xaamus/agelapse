@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d3cbd6;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#ageBlock {
+  display: flex;
+  font-family: sora;
+  height: 8vh;
+  color: #301e33;
+}
+#ageBlock #title {
+  font-size: 2vh;
+  font-style: italic;
+  font-weight: 700;
+  display: flex;
+  align-items: flex-end;
+}
+#ageBlock #age {
+  font-size: 9vh;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+#ageBlock #coma {
+  font-size: 3vh;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-start;
+}/*# sourceMappingURL=styles.css.map */
