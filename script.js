@@ -12,9 +12,9 @@ function timeLapsing(){
     let coma = document.getElementById('coma');
 
     let date2 = new Date();
-    let dt = 11;
-    let mt = 10;
-    let yt = 2005;
+    let dt = prompt("Dzień urodzenia:");
+    let mt = prompt("Miesiąc urodzenia:");
+    let yt = prompt("Rok urodzenia:");
     let dn = date2.getDate();
     let mn = date2.getMonth()+1;
     let yn = date2.getFullYear();
